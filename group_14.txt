@@ -66,4 +66,3 @@ Questions to answer:
 2.  Given the ElGamal Digital Signature implementation, would it be better to use RSA instead? Justify your answer based on security, efficiency, and computational complexity.
 3.  Provide an example use case where ElGamal would be preferable over RSA.
 
-fhfhfhfh

@@ -29,7 +29,7 @@ def hash_message(message):
 def sign_message(message, private_key, public_key):
     p, g, y = public_key
     x = private_key
-   # h = int.from_bytes(message.encode(), "big") # Convert message to integer
+    h = int.from_bytes(message.encode(), "big") # Convert message to integer
     
     h = hash_message(message, p)  
 
@@ -70,7 +70,7 @@ def verify_signature(message, signature, public_key):
 #============================================================================================
 # Main Execution
 if __name__ == "__main__":
-print("Generating Secure ElGamal Keys...")
+    print("Generating Secure ElGamal Keys...")
 public_key, private_key = generate_keys()
 print("Keys Generated!")
 print(f"Public Key: {public_key}")
