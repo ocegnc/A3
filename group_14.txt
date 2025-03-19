@@ -9,6 +9,8 @@ Questions to answer:
 2.  What attack makes SHA-1 unsuitable for cryptographic security?
 3.  Replace SHA-1 with a more secure alternative and explain why.
 
+coucou
+
 -----------------------------------------------------------------------------------------------
 
 Task 2: The Necessity of Hashing the Message
