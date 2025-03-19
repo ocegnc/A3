@@ -1,0 +1,65 @@
+Course: INF-2310-2 25V
+
+Task 1: Preventing Collision Attacks on Hash Functions
+
+Problem: write the problem
+Solution: write the solution
+Questions to answer:
+1.	Why is SHA-1 not secure for digital signatures?
+2.  What attack makes SHA-1 unsuitable for cryptographic security?
+3.  Replace SHA-1 with a more secure alternative and explain why.
+
+-----------------------------------------------------------------------------------------------
+
+Task 2: The Necessity of Hashing the Message
+
+Problem: write the problem
+Solution: write the solution
+Questions to answer:
+1.  Why is hashing necessary before signing a message?
+2.  What risks arise if the message is directly converted to an integer instead of hashed?
+3.  Modify the code to ensure secure hashing before signing.
+
+-----------------------------------------------------------------------------------------------
+
+Task 3: Improving 'k' Selection for Signature Generation
+
+Problem: write the problem
+Solution: write the solution
+Questions to answer:
+1.  What issue exists in the selection of k?
+2.  Why is this a problem in digital signature security?
+3.  How can you securely improve the selection of k?
+
+-----------------------------------------------------------------------------------------------
+
+Task 4: Attaching the Message to the Signature
+
+Problem: write the problem
+Solution: write the solution
+Questions to answer:
+1.  Why should the message be attached to the signature?
+2.  How does separating the message and signature create security risks?
+3.  Modify the code to return a signed message that includes the original message.
+
+-----------------------------------------------------------------------------------------------
+
+Task 5: Ensuring Signature Validity Check in verify_signature()
+
+Problem: write the problem
+Solution: write the solution
+Questions to answer:
+1.  What is missing in the validity check of the signature?
+2.  Why could this lead to security or verification issues?
+3.  Suggest an improved version of the validity check.
+
+-----------------------------------------------------------------------------------------------
+
+Task 6: Comparing ElGamal and RSA Digital Signature
+
+Problem: write the problem
+Solution: write the solution
+Questions to answer:
+1.  What are the key differences between ElGamal and RSA digital signatures?
+2.  Given the ElGamal Digital Signature implementation, would it be better to use RSA instead? Justify your answer based on security, efficiency, and computational complexity.
+3.  Provide an example use case where ElGamal would be preferable over RSA.
